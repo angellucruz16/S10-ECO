@@ -1,0 +1,69 @@
+#registrarCandidatos{
+/*
+El flex es para acomodar los elementos en filas o columnas
+
+    */
+ display:flex; 
+ flex-direction: column;
+ width: 100%;
+ justify-content: center;
+ align-items: center;
+}
+#registrarCandidatos input{
+margin-bottom: 20px;
+width: 40%;
+padding: 5px;
+
+}
+#botonRegistrar{
+    padding: 5px 20px 5px 20px;
+    color: cornsilk;
+    background-color: rgb(64, 6, 119);
+    border: none;
+    border-radius: 10px;
+}
+#votarCandidatos{
+    display:flex; 
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+   }
+#botonVotar{
+    padding: 5px 20px 5px 20px;
+    color: cornsilk;
+    background-color: rgb(64, 6, 119);
+    border: none;
+    border-radius: 10px;
+}
+#IDvotado{
+    margin-bottom: 20px;
+width: 40%;
+padding: 5px;
+}
+#botonesVer{
+    position: absolute;
+    top: 50px ;
+    left: 40%;
+display:flex; 
+ flex-direction: column;
+ width: 100%;
+ justify-content: center;
+ align-items: center;
+}
+#verCandidatos{
+    margin-bottom: 20px;
+    padding: 5px 20px 5px 20px;
+    color: cornsilk;
+    background-color: rgb(64, 6, 119);
+    border: none;
+    border-radius: 10px;
+}
+#verVotaciones{
+    padding: 5px 20px 5px 20px;
+    color: cornsilk;
+    background-color: rgb(64, 6, 119);
+    border: none;
+    border-radius: 10px;
+}
+
